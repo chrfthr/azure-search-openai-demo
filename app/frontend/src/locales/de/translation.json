@@ -1,0 +1,179 @@
+{
+    "pageTitle": "Azure OpenAI + AI Search",
+    "headerTitle": "Azure OpenAI + AI Search",
+    "chat": "Chat",
+    "qa": "Stell mir eine Frage",
+    "login": "Login",
+    "logout": "Logout",
+    "clearChat": "Chat leeren",
+    "history": {
+        "chatHistory": "Chatverlauf",
+        "openChatHistory": "Chatverlauf öffnen",
+        "noHistory": "Kein Chatverlauf",
+        "deleteModalTitle": "Chatverlauf löschen",
+        "deleteModalDescription": "Diese Aktion kann nicht rückgängig gemacht werden. Diesen Chatverlauf löschen?",
+        "deleteLabel": "Löschen",
+        "cancelLabel": "Abbrechen",
+        "today": "Heute",
+        "yesterday": "Gestern",
+        "last7days": "Letzte 7 Tage",
+        "last30days": "Letzte 30 Tage"
+    },
+    "upload": {
+        "fileLabel": "Datei hochladen:",
+        "uploadedFilesLabel": "Bereits hochgeladene Dateien:",
+        "noFilesUploaded": "Noch keine Dateien hochgeladen",
+        "loading": "Lädt...",
+        "manageFileUploads": "Datei-Uploads verwalten",
+        "uploadingFiles": "Dateien werden hochgeladen...",
+        "uploadedFileError": "Fehler beim Hochladen der Datei – bitte erneut versuchen oder Admin kontaktieren.",
+        "deleteFile": "Datei löschen",
+        "deletingFile": "Datei wird gelöscht...",
+        "errorDeleting": "Fehler beim Löschen.",
+        "fileDeleted": "Datei gelöscht"
+    },
+    "developerSettings": "Entwicklereinstellungen",
+
+    "chatEmptyStateTitle": "Chatte mit deinen Daten",
+    "chatEmptyStateSubtitle": "Stelle eine beliebige Frage oder probiere ein Beispiel aus",
+    "defaultExamples": {
+        "1": "Was ist in meinem Northwind Health Plus Plan enthalten, das nicht im Standard enthalten ist?",
+        "2": "Was passiert bei einer Leistungsbeurteilung?",
+        "3": "Was macht ein Product Manager?",
+        "placeholder": "Stelle eine neue Frage (z.B. deckt mein Plan jährliche Augenuntersuchungen ab?)"
+    },
+    "askTitle": "Frage deine Daten",
+    "gpt4vExamples": {
+        "1": "Vergleiche die Auswirkungen von Zinssätzen und BIP auf die Finanzmärkte.",
+        "2": "Wie ist der erwartete Trend für den S&P 500 Index in den nächsten fünf Jahren? Vergleiche ihn mit der bisherigen Entwicklung des S&P 500.",
+        "3": "Gibt es eine Korrelation zwischen Ölpreisen und Aktienmarkttrends?",
+        "placeholder": "Beispiel: Deckt mein Plan jährliche Augenuntersuchungen ab?"
+    },
+    "generatingAnswer": "Antwort wird generiert",
+    "citationWithColon": "Quelle:",
+    "followupQuestions": "Folgefragen:",
+
+    "tooltips": {
+        "submitQuestion": "Frage absenden",
+        "askWithVoice": "Frage per Sprache stellen",
+        "stopRecording": "Aufnahme beenden",
+        "showThoughtProcess": "Gedankengang anzeigen",
+        "showSupportingContent": "Unterstützende Inhalte anzeigen",
+        "speakAnswer": "Antwort vorlesen",
+        "info": "Info",
+        "save": "Speichern",
+        "copy": "Kopieren",
+        "copied": "Kopiert!"
+    },
+
+    "headerTexts": {
+        "thoughtProcess": "Gedankengang",
+        "supportingContent": "Unterstützende Inhalte",
+        "citation": "Quelle"
+    },
+
+    "labels": {
+        "toggleMenu": "Menü umschalten",
+        "languagePicker": "Sprache auswählen",
+        "headerText": "Antwortgenerierung konfigurieren",
+        "closeButton": "Schließen",
+        "promptTemplate": "Prompt-Vorlage überschreiben",
+        "temperature": "Temperatur",
+        "seed": "Seed",
+        "minimumSearchScore": "Minimaler Such-Score",
+        "minimumRerankerScore": "Minimaler Reranker-Score",
+        "retrieveCount": "So viele Suchergebnisse abrufen:",
+        "maxSubqueryCount": "Max. Subqueries",
+        "resultsMergeStrategy": "Strategie zum Zusammenführen der Ergebnisse",
+        "resultsMergeStrategyOptions": {
+            "interleaved": "Interleaved",
+            "descending": "Absteigend"
+        },
+        "includeCategory": "Kategorie einbeziehen",
+        "includeCategoryOptions": {
+            "all": "Alle"
+        },
+        "excludeCategory": "Kategorie ausschließen",
+        "useSemanticRanker": "Semantischen Ranker für die Suche verwenden",
+        "useSemanticCaptions": "Semantische Captions verwenden",
+        "useQueryRewriting": "Query Rewriting für die Suche verwenden",
+        "reasoningEffort": "Reasoning-Aufwand",
+        "reasoningEffortOptions": {
+            "low": "Niedrig",
+            "medium": "Mittel",
+            "high": "Hoch"
+        },
+        "useSuggestFollowupQuestions": "Folgefragen vorschlagen",
+        "useAgenticRetrieval": "Agentic Retrieval verwenden",
+        "useGPT4V": "GPT Vision Modell verwenden",
+        "gpt4VInput": {
+            "label": "GPT Vision Modell Eingaben",
+            "options": {
+                "textAndImages": "Bilder und Text",
+                "images": "Bilder",
+                "texts": "Text"
+            }
+        },
+        "retrievalMode": {
+            "label": "Retrieval-Modus",
+            "options": {
+                "hybrid": "Vektoren + Text (Hybrid)",
+                "vectors": "Vektoren",
+                "texts": "Text"
+            }
+        },
+        "vector": {
+            "label": "Vektorfelder (Multi-Query Vektorsuche)",
+            "options": {
+                "embedding": "Text Embeddings",
+                "imageEmbedding": "Bild-Embeddings",
+                "both": "Text- und Bild-Embeddings"
+            }
+        },
+        "useOidSecurityFilter": "OID-Sicherheitsfilter verwenden",
+        "useGroupsSecurityFilter": "Gruppen-Sicherheitsfilter verwenden",
+        "shouldStream": "Chat Completion Antworten streamen"
+    },
+
+    "helpTexts": {
+        "promptTemplate":
+            "Überschreibt den Prompt, der zur Generierung der Antwort basierend auf der Frage und den Suchergebnissen verwendet wird. Um an den bestehenden Prompt anzuhängen, statt ihn komplett zu ersetzen, beginne deinen Prompt mit '>>>'.",
+        "temperature":
+            "Legt die Temperatur der Anfrage an das LLM fest, das die Antwort generiert. Höhere Temperaturen führen zu kreativeren Antworten, die aber weniger fundiert sein können.",
+        "seed": "Setzt einen Seed, um die Reproduzierbarkeit der Modellantworten zu verbessern. Der Seed kann eine beliebige Ganzzahl sein.",
+        "searchScore":
+             "Legt einen minimalen Score für Suchergebnisse aus Azure AI Search fest. Der Wertebereich hängt davon ab, ob Hybrid (Standard), nur Vektoren oder nur Text verwendet wird.",
+        "rerankerScore":
+             "Legt einen minimalen Score für Suchergebnisse aus dem semantischen Reranker fest. Der Score liegt immer zwischen 0-4. Je höher der Score, desto semantisch relevanter ist das Ergebnis zur Frage.",
+        "retrieveNumber":
+             "Legt die Anzahl der Suchergebnisse fest, die von Azure AI Search abgerufen werden. Mehr Ergebnisse erhöhen die Wahrscheinlichkeit, die richtige Antwort zu finden, können aber dazu führen, dass das Modell 'den Faden verliert'.",
+        "maxSubqueryCount":
+            "Legt die maximale Anzahl an Subqueries für den Agentic Retrieval Query Plan fest.",
+        "resultsMergeStrategy":
+            "Legt die Strategie zum Zusammenführen von Ergebnissen aus mehreren Subqueries fest. 'Interleaved' wählt die Top-Ergebnisse jeder Subquery im Rundlauf, während 'Absteigend' alle Ergebnisse nach Reranker-Score sortiert.",
+        "includeCategory":
+            "Gibt eine Kategorie an, die in die Suchergebnisse einbezogen werden soll. Im Standard-Datensatz werden keine Kategorien verwendet.",
+         "excludeCategory":
+            "Gibt eine Kategorie an, die aus den Suchergebnissen ausgeschlossen werden soll. Im Standard-Datensatz werden keine Kategorien verwendet.",
+         "useSemanticReranker":
+            "Aktiviert den Azure AI Search Semantic Ranker, ein Modell, das Suchergebnisse basierend auf semantischer Ähnlichkeit zur Nutzerfrage neu sortiert.",
+        "useQueryRewriting":
+            "Aktiviert Azure AI Search Query Rewriting, ein Prozess, der die Nutzerfrage modifiziert, um bessere Suchergebnisse zu erzielen. Erfordert, dass der Semantic Ranker aktiviert ist.",
+        "reasoningEffort":
+            "Legt den Reasoning-Aufwand für das LLM fest. Höhere Werte führen zu mehr Reasoning, können aber die Antwortgenerierung verlangsamen. Standard ist Mittel.",
+        "useSemanticCaptions":
+             "Sendet semantische Captions an das LLM anstelle des vollständigen Suchergebnisses. Eine semantische Caption wird während des semantischen Rankings aus einem Suchergebnis extrahiert.",
+        "suggestFollowupQuestions": "Fordert das LLM auf, Folgefragen basierend auf der Nutzerfrage vorzuschlagen.",
+         "useGPT4Vision": "Verwendet GPT-4-Turbo mit Vision, um Antworten basierend auf Bildern und Text aus dem Index zu generieren.",
+        "vectorFields":
+            "Gibt an, welche Embedding-Felder im Azure AI Search Index durchsucht werden: sowohl 'Bilder und Text', nur 'Bilder' oder nur 'Text'.",
+        "gpt4VisionInputs":
+            "Legt fest, was an das Vision-Modell gesendet wird. 'Bilder und Text' sendet beides, 'Bilder' nur Bilder und 'Text' nur Text.",
+        "retrievalMode":
+            "Legt den Retrieval-Modus für die Azure AI Search Query fest. 'Vektoren + Text (Hybrid)' kombiniert Vektorsuche und Volltextsuche, 'Vektoren' nutzt nur Vektorsuche und 'Text' nur Volltextsuche. Hybrid ist in der Regel optimal.",
+        "streamChat": "Streamt die Antwort kontinuierlich an das Chat-UI, während sie generiert wird.",
+        "useOidSecurityFilter": "Filtert Suchergebnisse basierend auf der OID des authentifizierten Nutzers.",
+        "useGroupsSecurityFilter": "Filtert Suchergebnisse basierend auf den Gruppen des authentifizierten Nutzers.",
+        "useAgenticRetrieval": "Verwendet Agentic Retrieval von Azure AI Search für Multi-Query-Planung. Nutzt immer den Semantic Ranker."
+    }
+}
