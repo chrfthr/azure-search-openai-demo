@@ -73,9 +73,10 @@ i18next
             nl: { translation: nlTranslation },
             ptBR: { translation: ptBRTranslation },
             tr: { translation: trTranslation },
-            it: { translation: itTranslation }
+            it: { translation: itTranslation },
+            de: { translation: deTranslation }
         },
-        fallbackLng: "en",
+        fallbackLng: "de",
         supportedLngs: Object.keys(supportedLngs),
         debug: import.meta.env.DEV,
         interpolation: {
