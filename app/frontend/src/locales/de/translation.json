@@ -37,10 +37,10 @@
     "chatEmptyStateTitle": "Chatte mit deinen Daten",
     "chatEmptyStateSubtitle": "Stelle eine beliebige Frage oder probiere ein Beispiel aus",
     "defaultExamples": {
-        "1": "Was ist in meinem Northwind Health Plus Plan enthalten, das nicht im Standard enthalten ist?",
-        "2": "Was passiert bei einer Leistungsbeurteilung?",
-        "3": "Was macht ein Product Manager?",
-        "placeholder": "Stelle eine neue Frage (z.B. deckt mein Plan jährliche Augenuntersuchungen ab?)"
+        "1": "Wie reinige und entkalke ich die Kaffeemaschine?",
+        "2": "Warum läuft kein Kaffee durch / ist der Wasserdurchfluss blockiert?",
+        "3": "Wie stelle ich die Mahlgrad richtig ein?",
+        "placeholder": "Stelle eine neue Frage.."
     },
     "askTitle": "Frage deine Daten",
     "gpt4vExamples": {

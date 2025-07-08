@@ -65,16 +65,16 @@ i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         resources: {
-            da: { translation: daTranslation },
-            en: { translation: enTranslation },
-            es: { translation: esTranslation },
-            fr: { translation: frTranslation },
-            ja: { translation: jaTranslation },
-            nl: { translation: nlTranslation },
-            ptBR: { translation: ptBRTranslation },
-            tr: { translation: trTranslation },
-            it: { translation: itTranslation },
-            de: { translation: deTranslation }
+            de: { translation: deTranslation },
+            en: { translation: enTranslation }
+            //da: { translation: daTranslation },
+            //es: { translation: esTranslation },
+            //fr: { translation: frTranslation },
+            //ja: { translation: jaTranslation },
+            //nl: { translation: nlTranslation },
+            //ptBR: { translation: ptBRTranslation },
+            //tr: { translation: trTranslation },
+            //it: { translation: itTranslation },
         },
         fallbackLng: "de",
         supportedLngs: Object.keys(supportedLngs),
